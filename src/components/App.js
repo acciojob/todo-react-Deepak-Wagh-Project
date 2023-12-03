@@ -32,7 +32,7 @@ const App = () => {
         TodoList.map((ele)=>{
           return(<li className="to-do-container" key={getKey()}> 
             <div>{ele}</div>
-            <button  onClick={()=>deleteItemFromList(ele)}>Delete</button>
+            <button  onClick={()=>deleteItemFromList(ele)}></button>
           </li>)
         })
        }
