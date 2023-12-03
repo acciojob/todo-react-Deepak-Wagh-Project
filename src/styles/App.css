@@ -1,1 +1,10 @@
-
+.to-do-list-container{
+   display: flex;
+   flex-direction: column;
+   gap: 5px;
+}
+.to-do-container{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
